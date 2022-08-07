@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="produtos">
+    <file>atualizar.png</file>
+    <file>excluir.png</file>
+    <file>adicionar-botao.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,20 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>volte (1).png</file>
+    <file>id-do-rosto.png</file>
+    <file>carteira-de-motorista.png</file>
+    <file>cadeado.png</file>
+    <file>senha (1).png</file>
+    <file>senha.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>volte (1).png</file>
+    <file>volte.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>o-email.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>pessoa.png</file>
+  </qresource>
+</RCC>
