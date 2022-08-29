@@ -10,13 +10,13 @@ import smtplib
 from PyQt5 import uic,QtWidgets
 from PyQt5 import QtGui
 from PyQt5.QtWidgets import QMessageBox
-import icons
+import icones.icons as icons
 import mysql.connector
 import re
 import webbrowser
 import random
-import enviaremail
-import pordutosicons
+import Envio_Email.enviaremail as enviaremail
+import icones.pordutosicons as pordutosicons
 
 def acessar_email():
     new=2

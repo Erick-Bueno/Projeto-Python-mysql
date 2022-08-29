@@ -147,6 +147,9 @@
        <bold>true</bold>
       </font>
      </property>
+     <property name="frame">
+      <bool>false</bool>
+     </property>
      <property name="dateTime">
       <datetime>
        <hour>2</hour>
@@ -213,7 +216,7 @@ QPushButton:Pressed{
       <string>Adicionar</string>
      </property>
      <property name="icon">
-      <iconset resource="iconesDeProdutos.qrc">
+      <iconset>
        <normaloff>:/produtos/adicionar-botao.png</normaloff>:/produtos/adicionar-botao.png</iconset>
      </property>
      <property name="iconSize">
@@ -254,7 +257,7 @@ QPushButton:Pressed{
       <string> Deletar</string>
      </property>
      <property name="icon">
-      <iconset resource="iconesDeProdutos.qrc">
+      <iconset>
        <normaloff>:/produtos/excluir.png</normaloff>:/produtos/excluir.png</iconset>
      </property>
      <property name="iconSize">
@@ -295,7 +298,7 @@ QPushButton:Pressed{
       <string>Atualizar</string>
      </property>
      <property name="icon">
-      <iconset resource="iconesDeProdutos.qrc">
+      <iconset>
        <normaloff>:/produtos/atualizar.png</normaloff>:/produtos/atualizar.png</iconset>
      </property>
      <property name="iconSize">
@@ -607,9 +610,12 @@ border: 1px</string>
       <rect>
        <x>10</x>
        <y>0</y>
-       <width>731</width>
+       <width>721</width>
        <height>201</height>
       </rect>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::AnyKeyPressed|QAbstractItemView::EditKeyPressed</set>
      </property>
      <column>
       <property name="text">
@@ -758,8 +764,6 @@ border: 1px</string>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources>
-  <include location="iconesDeProdutos.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
